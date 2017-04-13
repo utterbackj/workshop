@@ -3,5 +3,7 @@
 // parallax code from: http://materializecss.com/parallax.html
 // this initializes all modals so they can be triggered
 $(document).ready(function() {
-  //initializing code goes here!
+  $(".dropdown-button").dropdown({ hover: false });
+  $('.modal').modal();
+  $('.parallax').parallax();
 });
